@@ -9,7 +9,6 @@ X = dataset.iloc[:, 1:-1].values
 y = dataset.iloc[:, -1].values
 
 # Preprocessing data here i.e. missing data or one hot incoding 
-# No feacher scaling is needed for decision trees
 
 regressor = RandomForestRegressor(n_estimators=500)
 # Uses the whole data set to train 
